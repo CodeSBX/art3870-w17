@@ -538,7 +538,6 @@ h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  text-align: center;
   color: inherit;
   text-rendering: optimizeLegibility; }
   h1 small,
@@ -553,39 +552,38 @@ h6 {
 h1 {
   font-size: 1.5rem;
   line-height: 1.4;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
 
 h2 {
   font-size: 1.25rem;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 0; }
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
 
 h3 {
   font-size: 1.1875rem;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 0; }
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
 
 h4 {
   font-size: 1.125rem;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 0; }
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
 
 h5 {
   font-size: 1.0625rem;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 0; }
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
 
 h6 {
   font-size: 1rem;
   line-height: 1.4;
-  margin-top: 10px;
-  margin-bottom: 0; }
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
 
 @media print, screen and (min-width: 40em) {
   h1 {
@@ -629,8 +627,6 @@ dl {
   line-height: 1.6; }
 
 li {
-  margin: ;
-  padding: ;
   font-size: inherit; }
 
 ul {
